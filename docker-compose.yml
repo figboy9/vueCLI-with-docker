@@ -1,0 +1,10 @@
+version: '3'
+services:
+  vue:
+    image: node:lts-alpine
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: yarn serve
+    ports:
+      - "8080:8080"
