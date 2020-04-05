@@ -5,10 +5,10 @@ You can create vue project with docker.
 First create an empty vue project folder.
 
 ```bash
-git clone https://github.com/ezio1119/VueCLI-with-docker.git
+git clone https://github.com/ezio1119/vueCLI-with-docker.git
 ```
 ```bash
-cd VueCLI-with-docker
+cd vueCLI-with-docker
 ```
 PROJECT_PATH is **absolute** path of your created vue project
 ```bash
