@@ -10,7 +10,7 @@ git clone https://github.com/ezio1119/VueCLI-with-docker.git
 ```bash
 cd VueCLI-with-docker
 ```
-PROJECT_PATH is absolute path of your created vue project
+PROJECT_PATH is **absolute** path of your created vue project
 ```bash
 make PROJECT_PATH=<your project path>
 ```
