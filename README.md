@@ -1,8 +1,7 @@
 # VueCLI-with-docker
 ## Usage
 You can create vue project with docker.
-
-A project is created in the parent directory.
+First create an empty vue project folder.
 
 ```
 git clone https://github.com/ezio1119/VueCLI-with-docker.git
@@ -10,11 +9,12 @@ git clone https://github.com/ezio1119/VueCLI-with-docker.git
 ```
 cd VueCLI-with-docker
 ```
+PROJECT_PATH is absolute path of your created vue project
 ```
-make PROJECT_NAME=<your project name>
+make PROJECT_PATH=<absolute path>
 ```
 ```
-cd ../<your project name>
+cd <absolute path>
 ```
 ```
 docker-compose up
